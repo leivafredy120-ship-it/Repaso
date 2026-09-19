@@ -1,0 +1,23 @@
+# Java / Maven
+repaso-backend/target/
+*.class
+
+# Node / React
+repaso-frontend/node_modules/
+repaso-frontend/dist/
+
+# Environment
+repaso-frontend/.env
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Archivos generados por TypeScript/Vite
+tsbuildinfo
+*.tsbuildinfo
+*.d.ts
