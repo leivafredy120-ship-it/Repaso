@@ -105,8 +105,8 @@ function VehiculosPage() {
     if (!idVehiculo) return;
 
     const confirmado = window.confirm(
-      '¿Esta seguro que desea anular este vehiculo? El registro no se eliminara de la base de datos.',
-    );
+  '¿Está seguro que desea anular este vehículo? El registro no se eliminará de la base de datos.',
+);
     if (!confirmado) return;
 
     setMensaje('');
